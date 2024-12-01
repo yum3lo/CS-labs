@@ -3,7 +3,6 @@ def create_matrix(key):
   key = key.upper().replace('J', 'I')
   key = ''.join(dict.fromkeys(key))
 
-  # key + remaining letters of alphabet
   matrix_content = key
   for letter in alphabet:
     if letter not in matrix_content:
